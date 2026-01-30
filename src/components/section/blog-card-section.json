@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_section_blog_card_sections",
+  "info": {
+    "displayName": "blog_card_section"
+  },
+  "options": {},
+  "attributes": {
+    "bg_media": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    },
+    "is_hidden": {
+      "type": "boolean",
+      "default": false
+    },
+    "is_latest_blog_required": {
+      "type": "boolean",
+      "default": false
+    },
+    "featured_card": {
+      "type": "component",
+      "component": "components.card",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

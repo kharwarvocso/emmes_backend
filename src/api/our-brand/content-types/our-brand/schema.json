@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_brands",
+  "info": {
+    "singularName": "our-brand",
+    "pluralName": "our-brands",
+    "displayName": "our brand"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "brand_name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "brand_name"
+    },
+    "description": {
+      "type": "text"
+    },
+    "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

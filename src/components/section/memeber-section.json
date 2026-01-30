@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_section_memeber_sections",
+  "info": {
+    "displayName": "memeber_section"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "ishidden": {
+      "type": "boolean",
+      "default": false
+    },
+    "button": {
+      "type": "component",
+      "component": "components.button",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

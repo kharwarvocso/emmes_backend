@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_section_hero_sections",
+  "info": {
+    "displayName": "hero_section"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "background_media": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "cards": {
+      "type": "component",
+      "component": "components.card",
+      "repeatable": true
+    },
+    "button": {
+      "type": "component",
+      "component": "components.button",
+      "repeatable": false
+    },
+    "metrix_position": {
+      "type": "enumeration",
+      "default": "right",
+      "enum": [
+        "left",
+        "right",
+        "bottom"
+      ]
+    }
+  },
+  "config": {}
+}

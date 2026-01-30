@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_resource_centers",
+  "info": {
+    "displayName": "resource_center"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button_name": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "string"
+    },
+    "preTitle": {
+      "type": "string"
+    },
+    "isPriority": {
+      "type": "boolean",
+      "default": false
+    },
+    "blog": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::blog.blog"
+    }
+  },
+  "config": {}
+}

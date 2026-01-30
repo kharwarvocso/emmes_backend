@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "hero_section": {
+      "type": "dynamiczone",
+      "components": [
+        "section.text-media-section",
+        "section.services-section",
+        "section.metrix",
+        "section.memeber-section",
+        "section.hero-section",
+        "section.case-study",
+        "section.blog-card-section"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "component": "components.seo",
+      "repeatable": false
+    }
+  }
+}

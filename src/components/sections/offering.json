@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_offerings",
+  "info": {
+    "displayName": "offering"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "ishidden": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_case_studies",
+  "info": {
+    "displayName": "case_study"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

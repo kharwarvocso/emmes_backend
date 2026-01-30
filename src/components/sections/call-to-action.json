@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_sections_call_to_actions",
+  "info": {
+    "displayName": "call_to_action"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button_name": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ishidden": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "config": {}
+}

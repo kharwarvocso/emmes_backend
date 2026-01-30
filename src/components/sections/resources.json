@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_resources",
+  "info": {
+    "displayName": "resources"
+  },
+  "options": {},
+  "attributes": {
+    "resource": {
+      "type": "component",
+      "component": "sections.resource-center",
+      "repeatable": true
+    },
+    "ishidden": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "config": {}
+}
