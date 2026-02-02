@@ -1,17 +1,15 @@
 {
-  "collectionName": "components_sections_company_abouts",
+  "collectionName": "components_components_social_medias",
   "info": {
-    "displayName": "company_about"
+    "displayName": "social media",
+    "icon": "earth"
   },
   "options": {},
   "attributes": {
-    "subtitle": {
+    "name": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
-    },
-    "image": {
+    "svg": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
@@ -21,9 +19,8 @@
         "audios"
       ]
     },
-    "ishidden": {
-      "type": "boolean",
-      "default": false
+    "link": {
+      "type": "string"
     }
   },
   "config": {}

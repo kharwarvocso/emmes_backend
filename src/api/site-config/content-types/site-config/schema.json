@@ -58,6 +58,11 @@
     },
     "indexing_enabled": {
       "type": "boolean"
+    },
+    "footer": {
+      "type": "component",
+      "component": "components.footer",
+      "repeatable": false
     }
   }
 }

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_components_footers",
+  "info": {
+    "displayName": "footer"
+  },
+  "options": {},
+  "attributes": {
+    "cta_title": {
+      "type": "string"
+    },
+    "cta_description": {
+      "type": "text"
+    },
+    "cta_button": {
+      "type": "component",
+      "component": "components.button",
+      "repeatable": false
+    },
+    "footer_title": {
+      "type": "string"
+    },
+    "footer_description": {
+      "type": "text"
+    },
+    "footer_newsletter_cta": {
+      "type": "component",
+      "component": "components.button",
+      "repeatable": false
+    },
+    "is_ctahidden": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "config": {}
+}

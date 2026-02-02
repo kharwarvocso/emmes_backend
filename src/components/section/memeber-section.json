@@ -18,7 +18,7 @@
     "button": {
       "type": "component",
       "component": "components.button",
-      "repeatable": true
+      "repeatable": false
     }
   },
   "config": {}

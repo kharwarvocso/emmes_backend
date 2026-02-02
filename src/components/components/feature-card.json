@@ -1,23 +1,20 @@
 {
-  "collectionName": "components_sections_call_to_actions",
+  "collectionName": "components_components_feature_cards",
   "info": {
-    "displayName": "call_to_action"
+    "displayName": "feature card"
   },
   "options": {},
   "attributes": {
-    "headline": {
+    "sub_tittle": {
       "type": "string"
     },
-    "description": {
+    "title": {
       "type": "text"
     },
-    "button_name": {
-      "type": "string"
+    "description": {
+      "type": "blocks"
     },
-    "button_link": {
-      "type": "string"
-    },
-    "image": {
+    "bg_media": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
@@ -26,6 +23,11 @@
         "videos",
         "audios"
       ]
+    },
+    "button": {
+      "type": "component",
+      "component": "components.button",
+      "repeatable": false
     },
     "ishidden": {
       "type": "boolean",

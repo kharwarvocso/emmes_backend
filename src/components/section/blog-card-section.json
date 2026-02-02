@@ -34,9 +34,29 @@
       "type": "boolean",
       "default": false
     },
+    "common_btn_name": {
+      "type": "string"
+    },
+    "common_btn_icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "common_btn_position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    },
     "featured_card": {
       "type": "component",
-      "component": "components.card",
+      "component": "components.feature-card",
       "repeatable": false
     }
   },

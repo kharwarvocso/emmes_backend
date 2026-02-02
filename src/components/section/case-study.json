@@ -10,6 +10,23 @@
     },
     "title": {
       "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "ishidden": {
+      "type": "boolean",
+      "default": false
+    },
+    "button": {
+      "type": "component",
+      "component": "components.button",
+      "repeatable": false
+    },
+    "case_studies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::case-study.case-study"
     }
   },
   "config": {}

@@ -11,6 +11,9 @@
     "description": {
       "type": "text"
     },
+    "title": {
+      "type": "string"
+    },
     "button": {
       "type": "component",
       "component": "components.button",
@@ -20,6 +23,10 @@
       "type": "component",
       "component": "components.matrix",
       "repeatable": true
+    },
+    "ishidden": {
+      "type": "boolean",
+      "default": false
     }
   },
   "config": {}

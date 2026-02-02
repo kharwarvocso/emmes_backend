@@ -646,6 +646,7 @@ export interface ApiSiteConfigSiteConfig extends Struct.SingleTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     favicon: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    footer: Schema.Attribute.Component<'components.footer', false>;
     indexing_enabled: Schema.Attribute.Boolean;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
