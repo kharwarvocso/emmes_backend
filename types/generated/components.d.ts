@@ -205,6 +205,17 @@ export interface SectionMetrix extends Struct.ComponentSchema {
   };
 }
 
+export interface SectionPageContent extends Struct.ComponentSchema {
+  collectionName: 'components_section_page_contents';
+  info: {
+    displayName: 'page content';
+  };
+  attributes: {
+    content: Schema.Attribute.Blocks;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface SectionServicesSection extends Struct.ComponentSchema {
   collectionName: 'components_section_services_sections';
   info: {
@@ -250,6 +261,7 @@ declare module '@strapi/strapi' {
       'section.hero-section': SectionHeroSection;
       'section.memeber-section': SectionMemeberSection;
       'section.metrix': SectionMetrix;
+      'section.page-content': SectionPageContent;
       'section.services-section': SectionServicesSection;
       'section.text-media-section': SectionTextMediaSection;
     }

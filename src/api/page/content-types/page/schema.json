@@ -24,7 +24,8 @@
         "section.memeber-section",
         "section.hero-section",
         "section.case-study",
-        "section.blog-card-section"
+        "section.blog-card-section",
+        "section.page-content"
       ]
     },
     "seo": {

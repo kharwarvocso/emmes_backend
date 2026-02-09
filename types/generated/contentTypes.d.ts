@@ -620,6 +620,7 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
         'section.hero-section',
         'section.case-study',
         'section.blog-card-section',
+        'section.page-content',
       ]
     >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
