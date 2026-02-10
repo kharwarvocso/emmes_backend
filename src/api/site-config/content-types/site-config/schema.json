@@ -46,7 +46,7 @@
     "meta_description": {
       "type": "string"
     },
-    "og_image": {
+    "footer_logo": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [

@@ -651,6 +651,9 @@ export interface ApiSiteConfigSiteConfig extends Struct.SingleTypeSchema {
       Schema.Attribute.Private;
     favicon: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     footer: Schema.Attribute.Component<'components.footer', false>;
+    footer_logo: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
     indexing_enabled: Schema.Attribute.Boolean;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
@@ -661,7 +664,6 @@ export interface ApiSiteConfigSiteConfig extends Struct.SingleTypeSchema {
     logo: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     meta_description: Schema.Attribute.String;
     meta_title: Schema.Attribute.String;
-    og_image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     publishedAt: Schema.Attribute.DateTime;
     site_description: Schema.Attribute.RichText;
     site_name: Schema.Attribute.String;
